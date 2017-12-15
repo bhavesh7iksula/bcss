@@ -1,0 +1,48 @@
+<!Doctype html>
+<html>
+<head>
+<title>Transision Example</title>
+<style type="text/css">
+	.corner{
+		position: relative;
+		background: orange;
+		width: 500px;
+		height: 500px;
+		color: white;
+		font-size: 20px;
+		text-align: center;	
+		border: 5px solid red;
+		
+		
+	}
+	.child{
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		background: gray;
+		left: 500px;
+    	top: 200px;
+    	z-index: 1;
+
+	}
+	#rotate{
+		-ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Safari */
+    transform: rotate(45deg);
+
+	}
+	.child:hover{
+		background-color: blue;
+	}
+</style>	
+</head>
+<body>
+	<div class="corner">
+		<p>ABC</p>
+		<div id="rotate">
+		<p class="child">EFG</p>
+	</div>
+	</div>
+	
+</body>
+</html>

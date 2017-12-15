@@ -1,0 +1,122 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #f1f1f1;
+    padding: 5px;
+    
+}
+ .btn{
+    float: right;
+    margin: 8px;
+    padding: 6px 10px;
+    font-size: 12px;
+    
+  }
+  .clear{
+        overflow: hidden;
+        background-color: #333;
+    }
+  .clear a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+            }
+/* Change color on hover */
+.clear a:hover {
+    background-color: #ddd;
+    color: black;
+}
+#banner{
+    width: 100%;
+    margin: 20px;
+
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Left and right column */
+.column.side {
+    width: 25%;
+    float: right;
+}
+
+/* Middle column */
+.column.middle {
+    width: 65%;
+    margin: 30px;
+
+}
+article{
+    display: block;
+    width: 70%
+}
+aside{
+    display: block;
+    width: 30%
+    float: right;
+
+}
+
+/* Style the footer */
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+/* social section  */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+
+}
